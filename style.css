@@ -1,0 +1,27 @@
+body {
+    background-color: #94c4c1;
+}
+
+.todolist {
+    background-color: #F9C7BE;
+    float: centre;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.title {
+    color: #3b899d;
+}
+
+.task {
+    background-color: rgb(196, 184, 184);
+    color: #221816;;
+}
+
+.add {
+    color: #c66264;
+}
