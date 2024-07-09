@@ -3,25 +3,44 @@ body {
 }
 
 .todolist {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
     background-color: #F9C7BE;
-    float: centre;
-    display: block;
-    text-align: center;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 10px;
+    font-family: Verdana;
+    padding: 20px;
     font-weight: bold;
 }
 
 .title {
     color: #3b899d;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.task_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9C7BE;
+    font-family: Verdana;
+    padding: 10px 10px;
 }
 
 .task {
-    background-color: rgb(196, 184, 184);
-    color: #221816;;
+    background-color: rgb(227, 210, 210);
+    color: #221816;
+    font-size: 20px;
+    padding: 20px;
+    flex-grow: 7;
 }
 
 .add {
-    color: #c66264;
+    background-color: #c66264;
+    color: #e6e2e2;
+    font-size: 20px;
+    padding: 20px;
+    
 }
