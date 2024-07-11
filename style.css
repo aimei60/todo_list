@@ -19,7 +19,8 @@ body {
     font-size: 40px;
 }
 
-.task_section {
+.task_section
+.row {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,14 +34,33 @@ body {
     background-color: rgb(227, 210, 210);
     color: #221816;
     font-size: 20px;
-    padding: 20px;
+    padding: 21px;
     flex-grow: 7;
+    border-color: rgb(227, 210, 210);
 }
 
 .add {
-    background-color: #c66264;
+    background-color: #cf4a4c;
     color: #e6e2e2;
     font-size: 20px;
     padding: 20px;
+    border-color: #cf4a4c;
     
+}
+
+.add {
+    transition-duration: 0.4;
+}
+
+.add:hover {
+    background-color: #cf4a4c;
+    color: #3b899d;
+}
+
+ul li {
+    list-style: none;
+    background-color: #F9C7BE;
+    font-family: Verdana;
+    padding: 10px, 10px;
+    cursor: pointer;
 }
