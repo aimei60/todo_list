@@ -1,12 +1,13 @@
 body {
     background-color: #94c4c1;
+    margin: 20;
 }
 
 .todolist {
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: #F9C7BE;
     font-family: Verdana;
     padding: 20px;
@@ -19,16 +20,24 @@ body {
     font-size: 40px;
 }
 
-.task_section
+.task_section {
+    background-color: #F9C7BE; 
+    margin: 0;
+}
+
 .row {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     background-color: #F9C7BE;
     font-family: Verdana;
-    padding: 10px 10px;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
 }
+
 
 .task {
     background-color: rgb(227, 210, 210);
@@ -45,7 +54,6 @@ body {
     font-size: 20px;
     padding: 20px;
     border-color: #cf4a4c;
-    
 }
 
 .add {
@@ -61,6 +69,9 @@ ul li {
     list-style: none;
     background-color: #F9C7BE;
     font-family: Verdana;
-    padding: 10px, 10px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
     cursor: pointer;
 }
