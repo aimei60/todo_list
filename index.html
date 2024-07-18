@@ -11,20 +11,18 @@
     </div>
     <div class="task_section">
       <div class="row">
-        <input type="text" class="task" placeholder="Add task">
-        <button class="add">Add</button>
+        <form class="task_form">
+          <input type="text" id="new_task" placeholder="Add Task"/>
+          <div class="add">
+            <input type="button" id="add_task_button" value="Add">
+          </div>
+        </form>
       </div>
-      <ul class="list_container">
-        <li class="task1">task 1</li>
-        <li class="task2">task 2</li>
-        <li class="task3">task 3</li>
+      <ul class="list_container" id="task_list">
       </ul>
     </div>
-
-
   <script src="todo.js"></script>
-
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   </body>
 
 

@@ -25,7 +25,8 @@ body {
     margin: 0;
 }
 
-.row {
+.row
+.task_form {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -34,12 +35,12 @@ body {
     font-family: Verdana;
     padding-top: 0px;
     padding-right: 30px;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
     padding-left: 30px;
 }
 
 
-.task {
+.task_form {
     background-color: rgb(227, 210, 210);
     color: #221816;
     font-size: 20px;
@@ -48,30 +49,44 @@ body {
     border-color: rgb(227, 210, 210);
 }
 
-.add {
-    background-color: #cf4a4c;
-    color: #e6e2e2;
-    font-size: 20px;
-    padding: 20px;
-    border-color: #cf4a4c;
+#new_task {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    
 }
 
-.add {
-    transition-duration: 0.4;
-}
+#add_task_button {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    background-color: rgb(226, 112, 112);
 
-.add:hover {
-    background-color: #cf4a4c;
-    color: #3b899d;
 }
 
 ul li {
     list-style: none;
     background-color: #F9C7BE;
     font-family: Verdana;
-    padding-top: 10px;
+    padding-top: 0px;
     padding-right: 0px;
     padding-bottom: 20px;
     padding-left: 0px;
     cursor: pointer;
+}
+
+.icon {
+    color: #b84430;
+    padding: 5px;
+}
+
+.delete-button {
+    color: #3b899d;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
